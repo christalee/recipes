@@ -10,12 +10,12 @@ A perennial favorite at Passover.
 - Soak matzos in water until soft. Drain and squeeze out excess water.
 
 * 6 eggs, separated
-* 1/4 cup sugar
+* 1/4cup sugar
 * 4 apples, sliced
-* 1/2 cup chopped or sliced almonds (optional)
-* 1/2 cup raisins (optional)
-* 1 tablespoon cinnamon
-* 1/4 lb. (1 stick) butter
+* 1/2cup chopped or sliced almonds (optional)
+* 1/2cup raisins (optional)
+* 1Tbsp cinnamon
+* 1/4lb. (1 stick) butter
 - Mix matzos with beaten egg yolks, sugar, apples, nuts, raisins, and cinnamon.
 - Add butter, melted or chopped into small pieces.
 
