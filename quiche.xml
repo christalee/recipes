@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <recipe>
+    <meta>
+      <title>Quiche Lorraine</title>
+      <size>1 28cm quiche pan</size>
+      <author>uhu01</author>
+      <description>
+        <p>This would be the description for this very nice recipe, which is actually legit and can be cooked like this.</p>
+      </description>
+    </meta>
+    <instructions>
+      <phase>
+        <ingredient>
+          <name>speck</name>
+          <amount>200</amount>
+          <unit>g</unit>
+        </ingredient>
+        <ingredient>
+          <name>onion</name>
+          <amount>3</amount>
+          <unit>pcs</unit>
+        </ingredient>
+        <step>cut speck into cubes, onion into rings</step>
+        <step>brown both together and let cool</step>
+      </phase>
+      <phase>
+        <ingredient>
+          <name>egg</name>
+          <amount>3</amount>
+          <unit>pcs</unit>
+        </ingredient>
+        <ingredient>
+          <name>heavy cream</name>
+          <amount>250</amount>
+          <unit>ml</unit>
+        </ingredient>
+        <ingredient>
+          <name>Gruyère</name>
+          <amount>125</amount>
+          <unit>g</unit>
+        </ingredient>
+        <step>whisk egg and cream together</step>
+        <step>grate Gruyère, add to cream</step>
+        <step>add speck mixture to cream</step>
+      </phase>
+      <phase>
+        <ingredient>
+          <name>shortcrust pastry</name>
+        </ingredient>
+        <step>line dish with pastry</step>
+        <step>fill pastry with the mixture</step>
+        <step>bake in the preheated oven at 180°C, for 30 to 35 minutes</step>
+      </phase>
+    </instructions>
+  </recipe>
+</root>
