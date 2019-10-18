@@ -1,5 +1,6 @@
 !title: Quiche Lorraine
-!size: 1 28cm quiche pan
+!dish: 28cm quiche pan
+!size: 12
 !author: uhu01
 
 This would be the description for this very nice recipe, which is actually
