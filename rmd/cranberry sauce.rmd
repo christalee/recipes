@@ -1,6 +1,8 @@
-!title: Cranberry Sauce
-!tags: Thanksgiving, recipe
-!source: Beki Bergey
+---
+title: Cranberry Sauce
+tags: Thanksgiving, recipe
+source: Beki Bergey
+---
 
 A simple but delicious cranberry sauce recipe.
 
