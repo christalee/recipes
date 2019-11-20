@@ -1,8 +1,25 @@
+% TODO
+% make index show up
+% straighten out section heading format (centered? nonumber?), ToC numbering, recipe numbering
+% refine recipe template lines, vspacing, page breaks, dingbats between recipes?
+% transcribe the rest of what I have collected already; figure out presentation for menus, online recipes, and longer prose
 \documentclass{article}
 \usepackage{cb_recipe}
+\usepackage{imakeidx}
+\makeindex
 
 \begin{document}
+\tableofcontents
+
+\section{Holidays}
 \input{"apple matzo charlotte"}
 \input{"cranberry sauce"}
 \input{eggnog}
+
+\section{Desserts}
+\input{"butterscotch brownies"}
+\input{"s'mores bars"}
+\input{"cookies'n'cream bars"}
+
+\printindex
 \end{document}
