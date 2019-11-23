@@ -1,8 +1,11 @@
 % TODO
-% make index show up
+% make index show up (texliveonfly yes, tectonic no)
 % straighten out section heading format (centered? nonumber?), ToC numbering, recipe numbering
 % refine recipe template lines, vspacing, page breaks, dingbats between recipes?
-% transcribe the rest of what I have collected already; figure out presentation for menus, online recipes, and longer prose
+% transcribe the rest of what I have collected already;
+% figure out presentation for menus, online recipes, and longer prose
+% https://docs.google.com/document/d/1bR5uCH0NwBPjwBnxrYPUbg0gePnsin5rb9FzLDdUCgU/edit
+
 \documentclass{article}
 \usepackage{cb_recipe}
 \usepackage{imakeidx}
@@ -10,6 +13,9 @@
 
 \begin{document}
 \tableofcontents
+
+\section{Soups \& Stews}
+\input{chili}
 
 \section{Holidays}
 \input{"apple matzo charlotte"}
@@ -20,6 +26,8 @@
 \input{"butterscotch brownies"}
 \input{"s'mores bars"}
 \input{"cookies'n'cream bars"}
+\input{"lemon blueberry squares"}
+\input{"watergate cake"}
 
 \printindex
 \end{document}

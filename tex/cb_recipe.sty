@@ -1,7 +1,9 @@
 \usepackage{units}
-\usepackage[index,contents]{cb_cuisine}
+\usepackage[index,contents]{cuisine}
+\usepackage{etoolbox}
 \usepackage[margin=1in]{geometry}
 
+\newcommand{\inch}{$''$}
 \RecipeWidths{\textwidth}{3cm}{0.5cm}{3cm}{.75cm}{.75cm}
 
 \renewcommand*{\recipetitlefont}{\large\bfseries\sffamily}
@@ -9,3 +11,29 @@
 \renewcommand*{\recipeservingsfont}{\sffamily}
 \renewcommand*{\recipetimefont}{\sffamily}
 \renewcommand*{\recipefreeformfont}{\itshape}
+
+\renewrobustcmd{\Displ@ySt@p}{
+ \stepcounter{st@pnumber}
+ \makebox[\R@cipeWidth]{
+  \usebox{\st@pingrbox}
+  \makebox[\St@pNumberWidth][l]{\recipestepnumberfont\arabic{st@pnumber}}
+  \usebox{\st@pmethodbox}
+ }
+ \savebox{\st@pingrbox}[\R@cipeIQUWidth]{}
+}
+
+\renewrobustcmd{\DisplaySt@p}{
+ \vskip 0.1cm
+ \iffr@eforming
+  \Fr@eFormStep
+ \else
+  \Displ@ySt@p
+ \fi
+ \ifn@wpaging
+  \recipen@wpage
+ \else
+  \vskip 0.1cm
+  \rule{\R@cipeWidth}{0.25pt}\par
+ \fi
+ \n@wpagingfalse
+}
