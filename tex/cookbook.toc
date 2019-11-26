@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Soups \& Stews}{1}% 
+\contentsline {subsection}{Veggie Chili}{1}% 
+\contentsline {section}{\numberline {2}Holidays}{2}% 
+\contentsline {subsection}{Apple Matzo Charlotte}{2}% 
+\contentsline {subsection}{Cranberry Sauce}{2}% 
+\contentsline {subsection}{Serge Lang's eggnog}{3}% 
+\contentsline {section}{\numberline {3}Desserts}{3}% 
+\contentsline {subsection}{Butterscotch Brownies}{3}% 
+\contentsline {subsection}{S'mores Bars}{3}% 
+\contentsline {subsection}{Cookies'n'Cream Bars}{4}% 
+\contentsline {subsection}{Lemon-Blueberry Squares}{4}% 
+\contentsline {subsection}{Jill's Watergate Cake}{5}% 

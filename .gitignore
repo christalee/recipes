@@ -1,4 +1,6 @@
 /originals
 .DS_Store
 /xml
-/pdf
+*.aux
+*.log
+*.ilg

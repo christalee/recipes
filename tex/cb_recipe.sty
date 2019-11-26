@@ -1,39 +1,32 @@
 \usepackage{units}
-\usepackage[index,contents]{cuisine}
+\usepackage[index,contents,nonumber]{cb_cuisine}
 \usepackage{etoolbox}
 \usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{Alegreya}
+\usepackage{AlegreyaSans}
 
-\newcommand{\inch}{$''$}
-\RecipeWidths{\textwidth}{3cm}{0.5cm}{3cm}{.75cm}{.75cm}
+\newcommand{\inch}{\(''\)}
+\RecipeWidths{\textwidth}{0.6\textwidth}{0.25cm}{0.3\textwidth}{1cm}{.75cm}
 
 \renewcommand*{\recipetitlefont}{\large\bfseries\sffamily}
 \renewcommand*{\recipenumberfont}{\large\sffamily}
 \renewcommand*{\recipeservingsfont}{\sffamily}
 \renewcommand*{\recipetimefont}{\sffamily}
-\renewcommand*{\recipefreeformfont}{\itshape}
+\renewcommand*{\recipefreeformfont}{\sffamily\itshape}
 
-\renewrobustcmd{\Displ@ySt@p}{
- \stepcounter{st@pnumber}
- \makebox[\R@cipeWidth]{
-  \usebox{\st@pingrbox}
-  \makebox[\St@pNumberWidth][l]{\recipestepnumberfont\arabic{st@pnumber}}
-  \usebox{\st@pmethodbox}
- }
- \savebox{\st@pingrbox}[\R@cipeIQUWidth]{}
-}
-
-\renewrobustcmd{\DisplaySt@p}{
- \vskip 0.1cm
- \iffr@eforming
-  \Fr@eFormStep
- \else
-  \Displ@ySt@p
- \fi
- \ifn@wpaging
-  \recipen@wpage
- \else
-  \vskip 0.1cm
-  \rule{\R@cipeWidth}{0.25pt}\par
- \fi
- \n@wpagingfalse
-}
+% \renewrobustcmd{\DisplaySt@p}{
+%  \vskip 0.1cm
+%  \iffr@eforming
+%   \Fr@eFormStep
+%  \else
+%   \Displ@ySt@p
+%  \fi
+%  \ifn@wpaging
+%   \recipen@wpage
+%  \else
+%   \vskip 0.1cm
+%   \rule{\R@cipeWidth}{0.25pt}\par
+%  \fi
+%  \n@wpagingfalse
+% }
