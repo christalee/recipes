@@ -30,6 +30,7 @@
 \RequirePackage{nicefrac}
 % Restart recipe numbers every section
 \newcounter{r@cipenumber}[section]
+\renewcommand{\ther@cipenumber}{\thesection.\arabic{r@cipenumber}}
 \DeclareRobustCommand{\ResetRecipeCounter}{%
  \setcounter{r@cipenumber}{0}%
 }
@@ -363,12 +364,15 @@
  \stepcounter{ingr@dnumber}%
  \p@stingred%
 }%
-\newenvironment{recipe}[4][]{%
+\newenvironment{recipe}[4][\deflabel]{%
  \refstepcounter{r@cipenumber}
- \ifx\relax#1\relax
- \else
-  \label{#1}
- \fi
+ % If no label is provide d, default to the recipe title
+ \def\deflabel{#2}%
+ \label{#1}
+ % \ifx\relax#1\relax
+ % \else
+ %  \label{#1}
+ % \fi
  \let\label\relax
  \let\newstep\m@thodend
  \let\recipen@wpage\newpage
@@ -394,7 +398,8 @@
   \addcontentsline{toc}{subsection}{#2}%
  \fi%
  \ifind@xing%
-  \index{#2 (\arabic{r@cipenumber})}%
+  \index{\ther@cipenumber\ #2}%
+  % \index{#2 (\arabic{r@cipenumber})}%
  \fi%
  \nopagebreak%
  \r@cipetitle{#2}{#3}{#4}

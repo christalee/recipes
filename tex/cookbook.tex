@@ -1,33 +1,61 @@
 % TODO
-% make index show up (texliveonfly yes, tectonic no)
 % straighten out section heading format (centered? nonumber?), ToC numbering, recipe numbering
 % refine recipe template lines, vspacing, page breaks, dingbats between recipes?
 % transcribe the rest of what I have collected already;
 % figure out presentation for menus, online recipes, and longer prose
 % https://docs.google.com/document/d/1bR5uCH0NwBPjwBnxrYPUbg0gePnsin5rb9FzLDdUCgU/edit
+% add pictures of e.g. well-fried tofu?
+% add options to cb_cuisine for horizontal, vertical, and inline (Joy) format
+% figure out booklet layout?
+% figure out input{*}??
+% place steps inside ingredient boxes so \newstep takes less vertical space
+% why is the index not alphabetical?
 
 \documentclass{article}
 \usepackage{cb_recipe}
 \usepackage{imakeidx}
+\usepackage[hyperindex,colorlinks]{hyperref}
 \makeindex
 
 \begin{document}
 \tableofcontents
 
+\section{Breakfast}
+% \input{}
+\input{breakfast/granola}
+\input{breakfast/fritatta}
+\input{breakfast/oatmeal}
+
 \section{Soups \& Stews}
-\input{chili}
+\input{dinner/chili}
+Zucchini Rosemary Soup (MW)
+Mushroom Barley Soup (MW)
+potato chickpea curry
+curry squash soup
 
 \section{Holidays}
-\input{"apple matzo charlotte"}
-\input{"cranberry sauce"}
-\input{eggnog}
+\input{"holidays/apple matzo charlotte"}
+\input{holidays/stuffing}
+\input{"holidays/cranberry sauce"}
+\input{holidays/eggnog}
+\input{"holidays/orange tofu"}
 
 \section{Desserts}
-\input{"butterscotch brownies"}
-\input{"s'mores bars"}
-\input{"cookies'n'cream bars"}
-\input{"lemon blueberry squares"}
-\input{"watergate cake"}
+\input{dessert/dustin}
+\input{dessert/"watergate cake"}
+
+\section{Menus}
+\input{menus}
+
+\section{Our Parents' Cooking}
+I was sent off to college with my parents' copy of Joy of Cooking, ca. 1975 (a wedding gift), including recipes clipped out of newspapers and jotted down on used UW punchcards. Here are some Bieber family essentials, from Joy itself and the enclosed ephemera.
+% \input{bieber}
+
+When Daniel and I had our !wedding, the Bergeys presented us with a binder to store recipes, pre-populated with favorites from every family member and childhood delights.
+% \input{bergey}
+
+Daniel's 6th grade class put together a cookbook featuring recipes from every family, painstakingly handwritten and photocopied. For posterity, here they are.
+% \input{kidscancook}
 
 \printindex
 \end{document}
