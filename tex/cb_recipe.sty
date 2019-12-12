@@ -2,17 +2,22 @@
 \usepackage[index,contents]{cb_cuisine}
 % \usepackage{etoolbox}
 \usepackage[margin=1in]{geometry}
+\usepackage[toc]{multitoc}
 \usepackage{Alegreya}
 \usepackage{AlegreyaSans}
 
-\newcommand{\inch}{\(''\)}
-\RecipeWidths{\textwidth}{0.6\textwidth}{0.25cm}{0.3\textwidth}{1cm}{.75cm}
+\newcommand{\inch}{\(''\)\ }
+\RecipeWidths{\textwidth}{0.65\textwidth}{0.25cm}{0.25\textwidth}{1cm}{1cm}
 
 \renewcommand*{\recipetitlefont}{\large\bfseries\sffamily}
 \renewcommand*{\recipenumberfont}{\recipetitlefont}
 \renewcommand*{\recipeservingsfont}{\sffamily}
 \renewcommand*{\recipetimefont}{\recipeservingsfont}
 \renewcommand*{\recipefreeformfont}{\sffamily\itshape}
+
+\setcounter{tocdepth}{2}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
 
 % \renewrobustcmd{\DisplaySt@p}{
 %  \vskip 0.1cm
