@@ -1,8 +1,6 @@
----
-title: Serge Lang's eggnog
-tags: Thanksgiving, recipe
-source: Prof. Serge Lang, Princeton University
----
+!title: Serge Lang's eggnog
+!tags: Thanksgiving, recipe
+!source: Prof. Serge Lang, Princeton University
 
 This epic performance was reconstructed by Phil Bergey at Thanksgiving 2018.
 
