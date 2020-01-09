@@ -1,12 +1,10 @@
----
-title: Apple Matzo Charlotte
-tags: dessert, Passover, recipe
-source: "Adapted from Jewish Cookery, Matzo Charlotte #2"
-dish: 9\"x13\" baking dish
-time: 45 min.
-temp: 350°F
-size: 12
----
+!title: Apple Matzo Charlotte
+<!-- !dish: 9\"x13\" baking dish -->
+<!-- !temp: 350°F -->
+<!-- !time: 45 min. -->
+!source: "Adapted from Jewish Cookery, Matzo Charlotte #2"
+!size: 12
+<!-- !tags: dessert, Passover, recipe -->
 
 A perennial favorite at Passover.
 
@@ -14,21 +12,20 @@ A perennial favorite at Passover.
 - Soak matzos in water until soft. Drain and squeeze out excess water.
 
 * 6 eggs, separated
-* 1/4 cup sugar
+* 1/4cup sugar
 * 4 apples, sliced
-* 1/2 cup (almonds)
-* 1/2 cup (raisins)
-* 1 tbsp cinnamon
+* 1/2cup (almonds)
+* 1/2cup (raisins)
+* 1tbsp cinnamon
 - Mix matzos with beaten egg yolks, sugar, apples, nuts, raisins, and cinnamon.
 
-* 1/4 cup butter
+* 1/4cup butter
 - Add butter, melted or chopped into small pieces.
 
 * 6 egg whites
 - Whip egg whites until stiff. Fold gently into apple-matzo mixture.
-
 - Bake in a well-greased casserole until golden brown on top.
 
 Notes:
-- The original recipe suggests this can be served plain or "with lemon sauce", whatever that is.
-- Chop the apples while the matzos soak in the baking dish; dry and grease the baking dish later, while the egg whites are whipping.
+-- The original recipe suggests this can be served plain or "with lemon sauce", whatever that is.
+-- Chop the apples while the matzos soak in the baking dish; dry and grease the baking dish later, while the egg whites are whipping.

@@ -1,5 +1,5 @@
 !title: Serge Lang's eggnog
-!tags: Thanksgiving, recipe
+<!-- !tags: Thanksgiving, recipe -->
 !source: Prof. Serge Lang, Princeton University
 
 This epic performance was reconstructed by Phil Bergey at Thanksgiving 2018.
@@ -7,10 +7,10 @@ This epic performance was reconstructed by Phil Bergey at Thanksgiving 2018.
 * 12 eggs, separated
 - Separate the eggs; put the yolks into a large serving bowl and the whites into a mixer bowl.
 
-* 1 lb. sugar
-* 2 qt. milk
-* 1 qt. heavy cream
-* 700 mL Remy Martin VSOP cognac
+* 1lb. sugar
+* 2qt. milk
+* 1qt. heavy cream
+* 700mL Remy Martin VSOP cognac
 - Mix the sugar, milk, and cream into the egg yolks, then add the cognac.
 
 * 12 egg whites
