@@ -1,7 +1,7 @@
 !title: Quiche Lorraine
-<!-- !dish: 28cm quiche pan
-!time: 30-35 min.
-!temp: 180°C -->
+<!-- !dish: 28cm quiche pan -->
+<!-- !time: 30-35 min. -->
+<!-- !temp: 180°C -->
 !size: 12
 !source: uhu01
 <!-- !tags: dinner, meat, recipe -->
