@@ -1,0 +1,27 @@
+!title: Quiche Lorraine
+!dish: 28cm quiche pan
+!time: 30-35 min.
+!temp: 180°C
+!size: 12
+!source: uhu01
+!tags: dinner, meat, recipe
+
+This would be the description for this very nice recipe, which is actually
+legit and can be cooked like this.
+
+*   200g speck
+*   3 onions
+-   cut speck into cubes, onion into rings
+-   brown both together and let cool
+
+*   3 eggs
+*   250ml heavy cream
+*   125g Gruyère
+-   whisk egg and cream together
+-   grate Gruyère, add to cream
+-   add speck mixture to cream
+
+*   1 shortcrust pastry
+-   line dish with pastry
+-   fill pastry with the mixture
+-   bake in the preheated oven until brown
