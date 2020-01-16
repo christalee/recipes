@@ -1,6 +1,7 @@
 /originals
 .DS_Store
 /xml
+/venv
 *.aux
 *.idx
 *.ilg
