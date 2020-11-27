@@ -25,7 +25,9 @@
 \documentclass{article}
 \usepackage{cb_recipe}
 \usepackage{imakeidx}
-\usepackage[hyperindex,colorlinks]{hyperref}
+\usepackage{xcolor}
+\usepackage[hyperindex]{hyperref}
+\hypersetup{colorlinks, urlcolor=blue, linkcolor=teal}
 \makeindex[options={-s cookbook.ist}]
 
 \begin{document}
@@ -120,8 +122,8 @@
 % bitters?
 % homebrew recipes??? cocktails?
 
-% \section{Menus}
-% \input{menus}
+\section{Menus}
+\input{menus}
 
 \section{Our Parents' Cooking}
 The following recipes are more faithful to the originals than the preceding ones; for example, sugar quantities have been left as-is, rather than halved as I would. Commentary is indicated by [].
