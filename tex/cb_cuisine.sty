@@ -163,7 +163,7 @@
    \parbox[t]{\R@cipeWidth}{%
     \ifnumb@ring%
      \savebox{\titl@tmpbox}{%
-      {\recipenumberfont\ther@cipenumber\ \ }
+     {\recipenumberfont\ther@cipenumber\ \ }
       % {\recipenumberfont\arabic{r@cipenumber}\ \ }%
      }%
      \setlength{\R@cipeNumberWidth}{\wd\titl@tmpbox}%
@@ -364,15 +364,15 @@
  \stepcounter{ingr@dnumber}%
  \p@stingred%
 }%
-\newenvironment{recipe}[4][\deflabel]{%
+\newenvironment{recipe}[4][]{%
  \refstepcounter{r@cipenumber}
- % If no label is provide d, default to the recipe title
- \def\deflabel{#2}%
- \label{#1}
- % \ifx\relax#1\relax
- % \else
- %  \label{#1}
- % \fi
+ % If no label is provided, default to the recipe title
+ % \def\deflabel{#2}%
+ % \label{#1}
+ \ifx\relax#1\relax
+ \else
+   \label{#1}
+ \fi
  \let\label\relax
  \let\newstep\m@thodend
  \let\recipen@wpage\newpage
@@ -398,7 +398,7 @@
   \addcontentsline{toc}{subsection}{#2}%
  \fi%
  \ifind@xing%
-  \index{#2 (\ther@cipenumber)}%
+ \index{#2 (\ther@cipenumber)}%
  \fi%
  \nopagebreak%
  \r@cipetitle{#2}{#3}{#4}
@@ -408,7 +408,7 @@
 {%
  \pr@ingred%
  \ifnum\value{st@pnumber}=0%  then complain!
-  \PackageWarning{cuisine}{The recipe did not have any steps}%
+ \PackageWarning{cb_cuisine}{The recipe did not have any steps}%
  \fi%
 
  \pagebreak[0]%
