@@ -367,9 +367,8 @@
 \newenvironment{recipe}[4][]{%
  \refstepcounter{r@cipenumber}
  % If no label is provided, default to the recipe title
- % \def\deflabel{#2}%
- % \label{#1}
- \ifx\relax#1\relax
+ \if\relax#1\relax
+   \label{#2}
  \else
    \label{#1}
  \fi
@@ -395,10 +394,18 @@
  \pagebreak[0]
  \parskip0pt%
  \ifc@ntentsing%
-  \addcontentsline{toc}{subsection}{#2}%
+   \ifx\relax#1\relax
+     \addcontentsline{toc}{subsection}{#2}%
+   \else
+     \addcontentsline{toc}{subsection}{#1}%
+   \fi
  \fi%
  \ifind@xing%
- \index{#2 (\ther@cipenumber)}%
+   \ifx\relax#1\relax
+     \index{#2 (\ther@cipenumber)}%
+   \else
+     \index{#1 (\ther@cipenumber)}%
+   \fi%
  \fi%
  \nopagebreak%
  \r@cipetitle{#2}{#3}{#4}
